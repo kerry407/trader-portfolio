@@ -1390,6 +1390,14 @@
   margin: 0 auto;
 }
 
+.u-section-8 .u-image-3 {
+  width: 83px;
+  height: 83px;
+  background-image: url("images/arab-guy.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+
 .u-section-8 .u-text-1 {
   font-size: 1.0625rem;
   margin: 20px 0 0;
@@ -1406,6 +1414,50 @@
   font-weight: 400;
   width: 136px;
   margin: 8px auto 0;
+}
+
+.u-section-10 {
+  min-height: 200px;
+  padding-top: 50px;
+}
+
+.my-btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 22px 24px 22px 24px;
+  text-decoration: none;
+  border: none;
+}
+
+.my-btn a {
+  text-decoration: none;
+}
+
+.my-btn a b {
+  color: #2c4776;
+}
+
+.my-btn-reverse {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2c4776; 
+  padding: 22px 24px 22px 24px;
+  text-decoration: none;
+  border: none;
+}
+
+.my-btn-reverse a {
+  text-decoration: none;
+}
+
+.my-btn-reverse a b {
+  color: #ffffff;
 }
 
 .u-section-8 .u-carousel-item-2 {
@@ -1711,9 +1763,7 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-9 {
-    min-height: 1203px;
-  }
+
 
   .u-section-9 .u-layout-wrap-1 {
     margin-right: initial;
